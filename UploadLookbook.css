@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .upload-lookbook-page {
+    text-align: center;
+  }
+  
+  .lookbook-title {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .containerLB {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  
+  .username {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .content {
+    display: flex;
+    height: 300px; 
+    padding: 10px; 
+    gap: 5px; 
+  }
+  
+  .left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+  }
+  
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+  }
+  
+  .box {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box1, .box2 {
+    flex: 1;
+  }
+  
+  .box3, .box4, .box5 {
+    flex: 1;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid black;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-top: 1px solid black;
+  }
+  
+  .tag {
+    background-color: #e41751;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+  }
+  
+  .upload-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .upload-lookbook-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e41751;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 20px; 
+  }
+
+  
+  .upload-lookbook-button:hover {
+    background-color: #c31445;
+    transform: scale(1.1);
+  }
+  
+
+.upload-lookbook-page {
+  position: relative; 
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.upload-success-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000; 
+  width: 80%; 
+  max-width: 400px; 
+}
+
+.upload-success-modal p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.ok-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.ok-button:hover {
+  background-color: #74c452;
+}
+.content {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+  

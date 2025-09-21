@@ -1,0 +1,20 @@
+.lookbook-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e41751;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.lookbook-button:hover {
+    transform: scale(1.1);
+}
+
+
+
+  

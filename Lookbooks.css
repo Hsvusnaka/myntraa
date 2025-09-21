@@ -1,0 +1,368 @@
+.lookbooks-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  .search-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-tags .tag {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .lookbooks-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .lookbook-card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lookbook-card .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .lookbook-card .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .lookbook-card .username {
+    font-weight: bold;
+  }
+  
+  .lookbook-card .content {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .lookbook-card .box {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .lookbook-card .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .lookbook-card .boosts,
+  .lookbook-card .time {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .lookbook-card .tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .lookbook-card .tag {
+    background-color: #e41751;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .lookbooks-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  .search-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-tags .tag {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .lookbooks-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .lookbook-card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lookbook-card .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .lookbook-card .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .lookbook-card .username {
+    font-weight: bold;
+  }
+  
+  .lookbook-card .content {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .lookbook-card .box {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .lookbook-card .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .lookbook-card .boosts,
+  .lookbook-card .time {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .lookbook-card .tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .lookbook-card .tag {
+    background-color: #e41751;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  .lookbooks-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  .search-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-tags .tag {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 5px;
+    color: black; 
+  }
+  
+  .lookbooks-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .lookbooks-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  .search-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-tags .tag {
+    background-color: #eee;
+    border: 1px solid black; 
+    border-radius: 5px;
+    padding: 5px;
+    color: black; 
+  }
+  
+  .lookbooks-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+      
+  
